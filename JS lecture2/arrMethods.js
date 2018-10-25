@@ -73,16 +73,7 @@ let arr = Array.prototype.toString.call(carBrands, convertCarArr(carBrands));
 console.log(arr.toString());
 
 
-// 9. геттер length
-Object.defineProperty(carBrands, length, {
-    get: function () {
-        let count = 0;
-        for (key in this){
-            count++;
-        }
-        return count;
-    }
-});
+
 
 
 function convertCarArr(array) {
