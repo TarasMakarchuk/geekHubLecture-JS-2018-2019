@@ -18,11 +18,11 @@ var objectCar = {
     5: "Nissan",
     length: 6
 };
-console.log(objectCar);
+console.table(objectCar);
 
 
 var carBrands = Array.prototype.slice.call(objectCar);
-console.log(carBrands);
+console.table(carBrands);
 
 
 // 1. push
