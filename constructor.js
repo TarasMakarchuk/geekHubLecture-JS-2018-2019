@@ -8,7 +8,7 @@ class MyCar {
 
     constructor(...values) {
 
-        for (let i = 0; i < values.length; i++) {
+        for (var i = 0; i < values.length; i++) {
             this.cars = [].push.call(cars, values[i]);
         }
     }
