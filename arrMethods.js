@@ -9,8 +9,6 @@
     // toString,
     // геттер length
 
-
-
 var objectCar = {
     0: "Peogeot",
     1: "Volvo",
@@ -20,11 +18,11 @@ var objectCar = {
     5: "Nissan",
     length: 6
 };
-console.log(objectCar);
+console.table(objectCar);
 
 
 var carBrands = Array.prototype.slice.call(objectCar);
-console.log(carBrands);
+console.table(carBrands);
 
 
 // 1. push
@@ -37,6 +35,7 @@ console.log(carBrands);
 let popCar = Array.prototype.pop.apply(carBrands);
 console.log(popCar, "-  Remove the car in the array");
 console.log("Remaining cars  - ", carBrands);
+
 
 // 3. join
 let sumString = Array.prototype.join.call(carBrands, " + ");
@@ -69,9 +68,21 @@ carBrandsABCSorting.sort(function (a, b) {
 console.log(carBrandsABCSorting);
 
 
-// 8. toString,
+// 8. toString
 let arr = Array.prototype.toString.call(carBrands, convertCarArr(carBrands));
 console.log(arr.toString());
+
+
+// 9. геттер length
+Object.defineProperty(carBrands, length, {
+    get: function () {
+        let count = 0;
+        for (key in this){
+             count++;
+        }
+    return count;
+   }
+});
 
 
 function convertCarArr(array) {
@@ -82,6 +93,4 @@ function convertCarArr(array) {
 function findCarsWithLongNames() {
     return w => w.length > 6;
 }
-
-
 
