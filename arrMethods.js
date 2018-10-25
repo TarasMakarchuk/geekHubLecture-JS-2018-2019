@@ -9,8 +9,6 @@
     // toString,
     // геттер length
 
-
-
 var objectCar = {
     0: "Peogeot",
     1: "Volvo",
@@ -37,6 +35,7 @@ console.log(carBrands);
 let popCar = Array.prototype.pop.apply(carBrands);
 console.log(popCar, "-  Remove the car in the array");
 console.log("Remaining cars  - ", carBrands);
+
 
 // 3. join
 let sumString = Array.prototype.join.call(carBrands, " + ");
@@ -94,3 +93,4 @@ function convertCarArr(array) {
 function findCarsWithLongNames() {
     return w => w.length > 6;
 }
+
