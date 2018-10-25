@@ -69,9 +69,21 @@ carBrandsABCSorting.sort(function (a, b) {
 console.log(carBrandsABCSorting);
 
 
-// 8. toString,
+// 8. toString
 let arr = Array.prototype.toString.call(carBrands, convertCarArr(carBrands));
 console.log(arr.toString());
+
+
+// 9. геттер length
+Object.defineProperty(carBrands, length, {
+    get: function () {
+        let count = 0;
+        for (key in this){
+             count++;
+        }
+    return count ;
+    }
+    });
 
 
 function convertCarArr(array) {
@@ -82,6 +94,3 @@ function convertCarArr(array) {
 function findCarsWithLongNames() {
     return w => w.length > 6;
 }
-
-
-
