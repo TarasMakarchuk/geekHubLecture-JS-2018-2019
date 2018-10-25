@@ -81,9 +81,9 @@ Object.defineProperty(carBrands, length, {
         for (key in this){
              count++;
         }
-    return count ;
-    }
-    });
+    return count;
+   }
+});
 
 
 function convertCarArr(array) {
