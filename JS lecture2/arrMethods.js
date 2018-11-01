@@ -74,15 +74,21 @@ console.log(arr.toString());
 
 
 // 9. геттер length
-Object.defineProperty(carBrands, length, {
-    get: function () {
-        let count = 0;
-        for (key in this){
-            count++;
-        }
-        return count;
-    }
-});
+var array = {0:"123",1:45, 2:"3",4:"Overrrideeeee"};
+Object.defineProperty(array, 'length', {
+    get: function() {
+    //     var value = 15;
+    //     while (array.length < value) {
+    //         array.splice(array.length, 0, "car is not added");
+    //     }
+        return array.length;
+    }});
+
+console.log(array.length);
+console.table(array);
+
+
+
 
 
 function convertCarArr(array) {
