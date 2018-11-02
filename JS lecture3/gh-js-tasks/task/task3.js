@@ -53,9 +53,6 @@ function longWord(word) {
         return word;
     }
 }
-console.log(longWord("qqqwww"));
-
-
 
 
 tasks.push({
