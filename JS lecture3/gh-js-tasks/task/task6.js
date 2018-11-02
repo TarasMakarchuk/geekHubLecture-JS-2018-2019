@@ -55,12 +55,8 @@ function prettyYear(y) {
     }
 }
 
-console.log(prettyYear("1987"));
-// console.log(prettyYear("2013"));
-// console.log(prettyYear("8796"));
-
-// tasks.push({
-//     title: "Красивый год",
-//     solution: prettyYear,
-//     tests: prettyYearTests
-// });
+tasks.push({
+title: "Красивый год",
+solution: prettyYear,
+tests: prettyYearTests
+});
