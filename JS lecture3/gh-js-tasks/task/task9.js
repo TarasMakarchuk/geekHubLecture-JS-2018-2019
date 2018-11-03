@@ -71,6 +71,7 @@ function act(k, l, m, n, d){
     return count.length;
 }
 
+
 tasks.push({
     title: "Средство от бессонницы",
     solution: dragonCount,
