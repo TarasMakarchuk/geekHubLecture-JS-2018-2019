@@ -31,9 +31,34 @@ var firstStepsTests = [
 
 
 function firstSteps(arr) {
-    //TODO
-}
+    var counter = 1;
+    var steps = 0;
 
+    if (verifyNUmber() === true) {
+        return nonDecrNumbers(arr);
+    }
+
+    function nonDecrNumbers(params) {
+        for (let i = 0, a = 1; i < params.length; i++, a++) {
+            if (params[i] <= params[a]) {
+                counter++;
+            } else {
+                if (steps === 0 || counter > steps) {
+                    steps = counter;
+                    counter = 1;
+                } else {
+                    counter = 1;
+                }
+            }
+        }
+        return steps;
+    }
+
+    function verifyNUmber() {
+        return arr.length >= 1 && arr.length <= 109;
+    }
+    return steps;
+}
 
 tasks.push({
     title: "Кефа и первые шаги",
