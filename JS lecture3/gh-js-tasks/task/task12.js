@@ -53,7 +53,23 @@ var fastMathTest = [
 
 
 function fastMath(a, b) {
-    //TODO
+    var result = [];
+    if (verifyNmber() === true) {
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] !== b[i]) {
+                result.push(1);
+            } else {
+                result.push(0);
+            }
+        }
+    }
+
+    function verifyNmber() {
+        return (a.length >= 0 && a.length <= 100) &&
+            (b.length >= 0 && b.length <= 100);
+    }
+
+    return result.join("");
 }
 
 
