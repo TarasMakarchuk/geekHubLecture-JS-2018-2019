@@ -29,9 +29,46 @@ var dragonCountTests = [
     }
 ];
 
-
-function dragonCount(k, l, m, n, d) {
+function dragonCount(k, l, m, n, d) {
     //TODO
+    if(verifyDragons(k, l, m, n) && verifyDragonsLastElement(d) === true) {
+        return act(k, l, m, n, d);
+    }
+}
+
+function verifyDragons(k, l, m, n) {
+    var dragons = [k, l, m, n];
+    for (let i = 0; i < dragons.length; i++) {
+        if ((dragons[i] >= 1) && (dragons[i] <= 10)){
+            continue;
+        }
+        return false;
+    }
+    return true;
+}
+
+function verifyDragonsLastElement(d) {
+    return d >= 1 && d <= 105;
+}
+
+function act(k, l, m, n, d){
+    var count = [];
+    for (let i = 1; i <= d; i++) {
+        if(i % k === 0){
+            console.log("pan on the face");
+            count.push(k);
+        } else if(i % l === 0){
+            console.log("pinch the tail ");
+            count.push(l);
+        } else if(i % m === 0){
+            console.log("step on paw ");
+            count.push(m);
+        } else if(i % n === 0){
+            console.log("call mommy ");
+            count.push(n);
+        }
+    }
+    return count.length;
 }
 
 

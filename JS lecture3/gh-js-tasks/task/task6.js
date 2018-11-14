@@ -34,33 +34,24 @@ var prettyYearTests = [
 
 
 function prettyYear(y) {
-    if (y >= 1000 && y <= 9000) {
-        var nextYear = parseInt(y) + 1;
-        var yearPortions = nextYear.toString().split(", ");
-        var yearArr = [];
+    var nextYear = parseInt(y) + 1;
+    var years = nextYear.toString().split('');
+    var yearArr = [];
 
-        yearPortions.forEach(function (num) {
-            if (yearArr.indexOf(num) === -1) {
-                yearArr.push(num);
-            }
-        });
-
-        if (yearArr.length === yearPortions.length) {
-            return nextYear;
-        } else {
-            prettyYear(nextYear);
+    years.forEach(function (num) {
+        if (yearArr.indexOf(num) === -1) {
+            yearArr.push(num);
         }
-    } else {
-        return "input year in interval 1000-9000";
-    }
+    });
+
+    return yearArr.length === years.length
+        ? nextYear
+        : prettyYear(nextYear);
 }
 
-console.log(prettyYear("1987"));
-// console.log(prettyYear("2013"));
-// console.log(prettyYear("8796"));
 
-// tasks.push({
-//     title: "Красивый год",
-//     solution: prettyYear,
-//     tests: prettyYearTests
-// });
+tasks.push({
+    title: "Красивый год",
+    solution: prettyYear,
+    tests: prettyYearTests
+});
