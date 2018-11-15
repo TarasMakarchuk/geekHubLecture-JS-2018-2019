@@ -1,4 +1,3 @@
-
 window.onload = function () {
 
     var arrTodo = [];
@@ -26,5 +25,19 @@ window.onload = function () {
             output += arrTodo[key].todo + "<br>";
         }
         document.getElementById("out").innerHTML = output;
+
+    }
+
+        document.getElementById("reverse").onclick = function () {
+         outputValues().reverse();
+    };
+
+    var reverse = document.getElementById("reverse");
+    reverse.addEventListener('click', function () {
+        reverseElements(this);
+    });
+
+    function reverseElements(elements) {
+        elements.reverse();
     }
 };
