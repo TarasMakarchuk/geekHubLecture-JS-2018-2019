@@ -13,7 +13,7 @@ window.onload = function () {
         outputValues();
     };
 
-        document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "yellow";
 
     function outputValues() {
         var output = "";
@@ -26,29 +26,5 @@ window.onload = function () {
             output += arrTodo[key].todo + "<br>";
         }
         document.getElementById("out").innerHTML = output;
-
     }
-
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
