@@ -10,5 +10,6 @@ BODY {
     text-align: center;
     font-family: Arial;
     font-size: 12pt;
+    padding-bottom: 15px;
     border-bottom: 3px solid brown;
 }
