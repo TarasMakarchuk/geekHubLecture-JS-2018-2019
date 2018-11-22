@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1250px;
+}
+
+
+
+body{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#leftcol {
+    float:left;
+    width:33%;
+    padding-left: 0;
+    padding-bottom: 3rem;
+    background: #ebc752;
+    max-width: 33%;
+}
+
+#leftcol-padding {
+    float:left;
+    width:33%;
+    padding-left: 0;
+    padding-bottom: 3rem;
+    background: #282c32;
+    max-width: 33%;
+    padding-top: 20rem;
+}
+
+#rightcol {
+    float:right;
+    width: auto;
+    text-align: right;
+    padding-right: 12%;
+}
+
+#black-container {
+    width: 100%;
+    overflow: hidden;
+    background: #282c32
+}
+
+#blue-container {
+    width: 100%;
+    overflow: hidden;
+    background: #4b606f
+}
+
+
+#black-container-padding {
+    width: 100%;
+    overflow: hidden;
+    background: #4b606f
+}
+
+
+.letter {
+    color: #ffffff;
+    font-size: 4.5rem;
+    padding-left: 8rem;
+    margin-top: 10rem;
+    font-weight: bold;
+
+}
+
+.letter1 {
+    font-size: 1.22rem;
+    padding-left: 8rem;
+    margin-top: 10rem;
+    color: #ffffff;
+}
+
+.letter2 {
+    font-size: 1.72rem;
+    padding-left: 8rem;
+    margin-top: 10rem;
+    color: #e7c75e;
+}
+
+.letter3 {
+    font-size: 0.92rem;
+    padding-left: 8rem;
+    color: #ffffff;
+    border-left: 8rem;
+}
+
+.letter4 {
+    font-size: 2.52rem;
+    padding-left: 8rem;
+    color: #ffffff;
+    border-left: 8rem;
+}
+
+.letter5 {
+    font-size: 4.82rem;
+    padding-left: 8rem;
+    color: #e7c75e;
+    border-left: 8rem;
+}
+
+.letter6 {
+    font-size: 0.92rem;
+    padding-left: 30rem;
+    color: #ffffff;
+    border-left: 8rem;
+}
+
+.letter7 {
+    font-size: 1.92rem;
+    color: #ffffff;
+    padding-left: 8rem;
+    border-left: 8rem;
+}
+
+.letter8 {
+    font-size: 4.82rem;
+    color: #ffffff;
+    padding-left: 8rem;
+    border-left: 8rem;
+    font-weight: bold;
+}
+
+.letter9 {
+    font-size: 0.92rem;
+    padding-left: 30rem;
+    color: black;
+    border-left: 8rem;
+}
+
+.letter10 {
+    font-size: 1.42rem;
+    color: #ffffff;
+    padding-left: 8rem;
+    border-left: 8rem;
+}
+
+.letter11 {
+    font-size: 1.42rem;
+    color: #e7c75e;
+    padding-left: 8rem;
+    border-left: 8rem;
+}
+
+.big- {
+    font-size: 10.92rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 8rem;
+}
+
+
+
+
+p {
+    color: #282828;
+}
