@@ -1,4 +1,3 @@
-
 window.onload = function () {
 
     var arrTodo = [];
@@ -13,7 +12,7 @@ window.onload = function () {
         outputValues();
     };
 
-        document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "yellow";
 
     function outputValues() {
         var output = "";
@@ -29,26 +28,16 @@ window.onload = function () {
 
     }
 
+        document.getElementById("reverse").onclick = function () {
+         outputValues().reverse();
+    };
 
+    var reverse = document.getElementById("reverse");
+    reverse.addEventListener('click', function () {
+        reverseElements(this);
+    });
+
+    function reverseElements(elements) {
+        elements.reverse();
+    }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

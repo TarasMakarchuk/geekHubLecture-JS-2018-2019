@@ -1,14 +1,15 @@
-
 h4 {
     border-bottom: 3px solid brown;
     margin-bottom: 15px;
     text-align: center;
-
+    font-family: Arial;
+    font-weight: bold;
 }
 
-
-BODY{
-        text-align: center;
+BODY {
+    text-align: center;
+    font-family: Arial;
     font-size: 12pt;
-
+    padding-bottom: 15px;
+    border-bottom: 3px solid brown;
 }
