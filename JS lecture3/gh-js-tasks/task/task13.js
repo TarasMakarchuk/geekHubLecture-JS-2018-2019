@@ -30,7 +30,26 @@ var chatTest = [
 
 
 function chat(s) {
-    //TODO
+
+    var hello = "hello";
+    var temppp = "";
+    if(s.length > 0 && s.length <= 100 && s === s.toLowerCase()) {
+        var temp = [];
+        var k = 0;
+        for (let i = 0; i < s.length && k < hello.length; i++) {
+            if(s[i] === hello[k]) {
+                k++;
+                temp.push(s[i]);
+                console.log(temp);
+            }
+        }
+        temppp = temp.join("");
+        console.log(temppp);
+        if (temppp === hello) {
+            return "true";
+        }
+    }
+    return "false";
 }
 
 
