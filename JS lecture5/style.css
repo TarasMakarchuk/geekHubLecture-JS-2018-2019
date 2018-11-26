@@ -1,15 +1,65 @@
-h4 {
-    border-bottom: 3px solid brown;
+.h3 {
+    font-family: "Times New Roman",sans-serif;
+    border-bottom: 5px solid #08ff02;
+    box-shadow: 0 0 15px 5px #0dff00;
     margin-bottom: 15px;
     text-align: center;
-    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 6px 8px 2px #5f5947;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    height: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 15px 5px #00ff02;
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    text-align: -moz-center;
+    font-size: 11pt;
+    width: 80%;
+}
+
+button {
+    font-family: "Times New Roman", sans-serif;
+    background: #496576;
+    font-size: 1em;
+    touch-action: double-tap-zoom;
+    color: #fff4f4;
+    background: linear-gradient(#00ff00, #1e7f03);
+}
+
+button:active {
+    background: #a4cb5d;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#a4cb5d), to(#9ec45a));
+    background: -moz-linear-gradient(#a4cb5d, #9ec45a);
+    background: linear-gradient(#c00000, #000000);
+    border: solid 2px #fdc821;
+}
+
+.inputText {
+    font-family: "Times New Roman", sans-serif;
+    border: 2px solid #3880ac;
+    font-size: 11pt;
+    margin-bottom: 15px;
+    text-align: left;
     font-weight: bold;
 }
 
-BODY {
-    text-align: center;
-    font-family: Arial;
-    font-size: 12pt;
-    padding-bottom: 15px;
-    border-bottom: 3px solid brown;
+#logo {
+    height: 25px;
+    width: 25px;
+    right: 10%;
+    position: absolute;
+    box-shadow: 0 0 15px 5px #24ff13;
+    background: linear-gradient(#c00000, #000000);
+}
+
+p {
+    font-size: 10px;
+    text-align: right;
+    padding-right: 2.3rem;
+    font-weight: bold;
 }
