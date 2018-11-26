@@ -1,43 +1,85 @@
+// ##########################################################################
+
 window.onload = function () {
+    var elementLi;
+    var searchAdd = document.querySelector("#add");
+    searchAdd.addEventListener("click", function () {
+        var searchText = document.getElementById("input-text");
+        var inputTodoText = searchText.value;
 
-    var arrTodo = [];
-
-    document.getElementById("add").onclick = function () {
-        var inputValue = document.getElementById("in").value;
-        var temp = {};
-        temp.todo = inputValue;
-        temp.check = false;
-        arrTodo[arrTodo.length] = temp;
-        console.log(arrTodo);
-        outputValues();
-    };
-
-    document.body.style.backgroundColor = "yellow";
-
-    function outputValues() {
-        var output = "";
-        for (var key in arrTodo) {
-            if (arrTodo[key].check === true) {
-                output += "<input type='checkbox' checked>";
-            } else {
-                output += "<input type='checkbox'>";
-            }
-            output += arrTodo[key].todo + "<br>";
+        if (inputTodoText !== "") {
+            addElementTodo();
         }
-        document.getElementById("out").innerHTML = output;
 
-    }
+        function addElementTodo() {
+            var resultList = document.getElementById("result-list");
+            elementLi = document.createElement("li");
+            resultList.appendChild(elementLi);
+            elementLi.className = "element";
 
-        document.getElementById("reverse").onclick = function () {
-         outputValues().reverse();
-    };
+            var elementLabel = document.createElement("label");
+            elementLi.appendChild(elementLabel);
 
-    var reverse = document.getElementById("reverse");
-    reverse.addEventListener('click', function () {
-        reverseElements(this);
+            var checkboxElement = document.createElement("input");
+            elementLabel.appendChild(checkboxElement);
+            checkboxElement.setAttribute("type", "checkbox");
+            checkboxElement.setAttribute("value", inputTodoText);
+            checkboxElement.innerHTML = inputTodoText;
+
+            var spanText = document.createElement("span");
+            elementLabel.appendChild(spanText);
+            spanText.innerHTML = inputTodoText + " " + addNowTime();
+        }
+        searchText.value = "";
     });
 
-    function reverseElements(elements) {
-        elements.reverse();
+// ##########################################################################
+
+    function addNowTime() {
+        var date = new Date();
+        date.setMonth(date.getMonth() + 1);
+        return "(" +
+            date.getFullYear() + "/" +
+            date.getMonth() + "/" +
+            date.getDate() + ", " +
+            date.getHours() + ":" +
+            date.getMinutes() + ":" +
+            date.getSeconds() + ")";
+    }
+
+// ##########################################################################
+
+    var del = document.getElementById("delete");
+    del.addEventListener("click", deleteElement);
+
+    function deleteElement() {
+        var elementsCkecked = document.querySelectorAll(".element.checked");
+        Array.prototype.forEach.call(elementsCkecked, function (del) {
+            del.remove();
+        });
+    }
+
+    var resultList = document.getElementById("result-list");
+    resultList.addEventListener("click", checkBox);
+
+    function checkBox(event) {
+        let parentLabel = event.target.parentNode;
+        parentLabel.parentNode.classList.toggle("checked");
+    }
+
+// ##########################################################################
+
+    var reverseButton = document.getElementById("reverse");
+    reverseButton.addEventListener("click", reverseElements);
+
+    function reverseElements() {
+        var resultListRev = document.getElementById("result-list");
+        let liItems = resultListRev.childNodes;
+        let nodes = Array.from(liItems).reverse();
+        for (let i = 0; i < nodes.length; i++) {
+            resultListRev.appendChild(nodes[i]);
+        }
     }
 };
+
+// ##########################################################################
