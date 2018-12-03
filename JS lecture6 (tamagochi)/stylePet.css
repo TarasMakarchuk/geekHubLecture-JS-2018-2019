@@ -1,0 +1,102 @@
+#logo {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 13px 4px #ff2b0e;
+    margin-left: 420px;
+    border-radius: 5px;
+}
+
+
+.pet {
+    border-style: double;
+    box-shadow: 0 0 13px 4px #ff2b0e;
+    color: darkred;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.border {
+    height: 12px;
+}
+
+.item {
+    border-style: double;
+    color: darkred;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.create-pet {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: "Times New Roman", sans-serif;
+    color: navy;
+    font-weight: bold;
+
+}
+
+span[data-value] {
+    color: #0a0a0b;
+    right: 70%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.btn {
+    font-size: 14px;
+    margin: 5px;
+    padding: 8px;
+    box-shadow: 0 0 10px 3px #ff2b0e;
+}
+
+.state {
+    width: 450px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.btnposition {
+    width: 60%;
+    height: 60%;
+    right: 50%;
+    margin-left: 150px;
+    margin-top: -90px;
+}
+
+.gameOver {
+    font-weight: bold;
+    margin: 30px 30px 30px 30px;
+    width: 500px;
+    height: 30px;
+    border-style: double;
+    color: darkred;
+    padding: 3px;
+    box-shadow: 0 0 13px 4px #1eff0d;
+    border-radius: 5px;
+}
+
+.title {
+    font-family: "Times New Roman", sans-serif;
+    color: darkred;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+button {
+    background: sandybrown;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    color: darkred;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+    transition: 2s;
+    color: #ff7204;
+    border-color: currentColor;
+    background-color: #ffd133;
+}
