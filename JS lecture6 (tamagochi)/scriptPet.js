@@ -3,7 +3,7 @@ let minLimit = 0;
 let feed, games, walk, relax, doctor, learnJs,
     petDiv, addButton, inputName = {};
 
-
+// class Pet
 class Pet {
     constructor(name, health, satiety, strength, happiness) {
         //ім'я, здоров'я, ситість, сила, щастя
