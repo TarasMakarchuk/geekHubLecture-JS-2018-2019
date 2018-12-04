@@ -78,3 +78,4 @@ tasks.push({
     solution: fastMath,
     tests: fastMathTest
 });
+

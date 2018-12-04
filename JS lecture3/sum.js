@@ -9,3 +9,4 @@ Number.prototype.sum = function(y) {
 };
 console.log(x.sum(1));
 
+

@@ -65,4 +65,3 @@ tasks.push({
     solution: firstSteps,
     tests: firstStepsTests
 });
-
