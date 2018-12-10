@@ -1,0 +1,143 @@
+.h1 {
+    font-family: "Times New Roman", sans-serif;
+    border-bottom: 5px solid #190a18;
+    box-shadow: 0 0 15px 5px #190a18;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 8px 7px 2px #323130;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.h1:hover {
+    box-shadow: 0 0 15px 5px #d55244;
+    border-bottom: 5px solid #d55244;
+}
+
+input:nth-child(4) {
+    border-radius: 7px 7px 7px 8px;
+    box-shadow: 0 0 5px 2px #323130;
+    font-weight: bold;
+    background-color: #44ff0d;
+
+}
+
+input[type="checkbox"] {
+    box-shadow: 0 0 5px 2px #1eff0d;
+    margin-top: 7px;
+}
+
+li {
+    margin-left: -50px;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    height: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 16px 10px #0a0a0b;
+
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    font-size: 11pt;
+    width: 80%;
+}
+
+button {
+    font-family: "Times New Roman", sans-serif;
+    background: #496576;
+    font-size: 1em;
+    touch-action: double-tap-zoom;
+    color: #fff4f4;
+    background: linear-gradient(#190a18, #5f5947);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 0 5px 2px #190a18;
+}
+
+button:active {
+    background: linear-gradient(#1eff0d, #048e0d);
+}
+
+button:focus {
+    transition: 1s;
+    color: #D55244;
+    border-color: currentColor;
+    background-color: #ffd133;
+}
+
+.inputText {
+    font-family: "Times New Roman", sans-serif;
+    border: 3px solid #323130;
+    font-size: 11pt;
+    margin-bottom: 15px;
+    text-align: left;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #7aa1a6;
+    box-shadow: 1px 1px 6px 1px #323130;
+    width: 13rem;
+}
+
+.inputText:hover {
+    box-shadow: 0 0 10px 4px #d55244;
+    background-color: #44ff0d;
+}
+
+#logo {
+    height: 25px;
+    width: 25px;
+    right: 10%;
+    position: absolute;
+    box-shadow: 0 0 15px 5px #24ff13;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#logo:hover {
+    transition: 0.7s;
+    box-shadow: 0 0 15px 5px #d55244;
+}
+
+p {
+    font-size: 10px;
+    text-align: right;
+    padding-right: 2.3rem;
+    font-weight: bold;
+}
+
+.p-hint {
+    color: #D55244;
+    font-size: 10px;
+    text-align: center;
+}
+
+.p-hint:hover {
+    transition: 0.3s;
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    margin: 0 0 0 0;
+}
+
+span {
+    margin: 5px;
+}
+
+span:hover {
+    transition: 0.1s;
+    box-shadow: 0 0 10px 4px #d55244;
+    color: #fff;
+}
+
+#santa {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#santa:hover {
+    transition: 1s;
+    height: 130px;
+    width: 130px;
+}
