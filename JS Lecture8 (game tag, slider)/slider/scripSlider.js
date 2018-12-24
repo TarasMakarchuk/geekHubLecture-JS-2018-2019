@@ -1,7 +1,7 @@
 $(document).ready(function () {
     let widthSlide = 500;
     $('.slider-wrapper').width($('.slider-wrapper').children().size() * widthSlide);
-    sliderTimer = setInterval(nextSlide, 1500);
+    setInterval(nextSlide, 1500);
 
     function nextSlide() {
         let curentSlide = parseInt($('.slider-wrapper').data('current'));
