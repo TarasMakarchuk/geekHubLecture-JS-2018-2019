@@ -1,0 +1,94 @@
+body {
+    background: #fff6cc;
+}
+
+.big-text {
+    color: #2c2c3b;
+    box-shadow: #2c2c3b 0px 4px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 13px 4px #0e0cd4;
+    margin-left: 480px;
+    margin-bottom: -60px;
+    border-radius: 5px;
+}
+
+.btn-new-game {
+    font-family: "Times New Roman", sans-serif;
+    background: #496576;
+    margin-left: 205px;
+    font-size: 1em;
+    touch-action: double-tap-zoom;
+    color: #fff4f4;
+    background: linear-gradient(#190a18, #5f5947);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 0 5px 4px #190a18;
+}
+
+ul {
+    height: 52px;
+    display: flex;
+    justify-content: left;
+
+}
+
+li {
+    background: #e3e3e3;
+    border: 1px #0a0a0b groove;
+    border-radius: 10px;
+    display: inline; /* Отображать как строчный элемент */
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    overflow: hidden;
+    width: 65px;
+    height: 65px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 2px #190a18;
+    padding-top: 16px;
+    margin-right: 5px;
+}
+
+
+.draggable {
+    opacity: 0.3;
+}
+
+.under-drag {
+    opacity: 0.3;
+    border-style: dashed;
+}
+
+.main-block > ul:nth-child(4){
+    /*margin: -20px;*/
+}
+
+.main-block > ul:nth-child(1) > li{
+    background: rgba(27, 255, 90, 0.73);
+}
+
+.main-block > ul:nth-child(2) > li{
+    background: rgba(255, 204, 0, 0.58);
+}
+
+.main-block > ul:nth-child(3) > li {
+    background: rgba(255, 43, 14, 0.75);
+}
+
+.main-block > ul:nth-child(4) > li{
+    background: rgba(14, 12, 212, 0.56);
+}
+
+.main-block {
+    border: 80px dashed rgba(0, 0, 153, 0.73);
+    border-radius: 20px;
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
