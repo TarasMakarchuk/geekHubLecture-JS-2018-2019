@@ -5,11 +5,11 @@ $(document).ready(function () {
     setInterval(nextSlide, 1500);
 
     function nextSlide() {
-        let curentSlide = parseInt(slider.data('current'));
-        curentSlide++;
-        if (curentSlide >= slider.children().size()) {
-            curentSlide = 0;
+        let currentSlide = parseInt(slider.data('current'));
+        currentSlide++;
+        if (currentSlide >= slider.children().size()) {
+            currentSlide = 0;
         }
-        slider.animate({left: -curentSlide * widthSlide}, 600).data('current', curentSlide);
+        slider.animate({left: -currentSlide * widthSlide}, 600).data('current', currentSlide);
     }
 });
