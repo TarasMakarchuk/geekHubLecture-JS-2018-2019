@@ -1,0 +1,95 @@
+body {
+    background: url(img/nebulaKeel1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.block-li {
+    alignment: center;
+    list-style-type: none;
+}
+
+img {
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img:hover {
+    animation: swing 0.6s ease;
+    animation-iteration-count: 1;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.3rem;
+}
+
+P:hover {
+    color: rgb(255, 204, 0);
+}
+
+h3 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h3:hover {
+    color: rgb(255, 246, 204);
+    transform: scale(1.2);
+    animation: swing 0.6s ease;
+    /*animation-iteration-count: 1;*/
+    scroll-padding: unset;
+    overflow-scrolling: unset;
+}
+
+@-webkit-keyframes swing {
+    15% {
+        transform: translateX(19px);
+    }
+    30% {
+        transform: translateX(-19px);
+    }
+    40% {
+        transform: translateX(16px);
+    }
+    50% {
+        transform: translateX(-16px);
+    }
+    65% {
+        transform: translateX(6px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes swing {
+    15% {
+        transform: translateX(19px);
+    }
+    30% {
+        transform: translateX(-19px);
+    }
+    40% {
+        transform: translateX(16px);
+    }
+    50% {
+        transform: translateX(-16px);
+    }
+    65% {
+        transform: translateX(6px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
