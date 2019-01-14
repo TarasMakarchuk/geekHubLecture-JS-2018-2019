@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url(img/lorem.jpg) repeat;
+    background-size: 40%;
+    position: relative;
+    text-align: center;
+    margin-top: -25px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 13px 4px #1bff5a;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: -60px;
+}
+
+div {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#input-text {
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #B9E397;
+    border-radius: 7px;
+}
+
+#send {
+    background: #ffcc00;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60px;
+    font-weight: bold;
+}
+
+#send:hover {
+    background: blanchedalmond;
+}
+
+p {
+    color: #de0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
