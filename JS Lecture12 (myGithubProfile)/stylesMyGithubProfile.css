@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 110px;
+    background: #1bff5a;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.title:hover {
+    background: #ff0703;
+}
+
+h1 {
+    text-align: center;
+    border: 0;
+    margin: 0;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50%;
+    margin-top: 15px;
+    box-shadow: 0 0 15px 5px #ff0703;
+}
+
+.avatar:hover {
+    box-shadow: 0 0 15px 5px #1bff5a;
+}
+
+.logoGit {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ul-content li{
+    /*margin-top: -130px;*/
+    font-size: 22px;
+}
+
+.row-left {
+    height: 220px;
+    width: 30%;
+    float: left;
+    position: static;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 229, 5, 0.49);
+    opacity: 0.9;
+    padding-left: 5px;
+}
+
+.row-left:hover {
+    background: #ff0703;
+    opacity: 0.6;
+}
+
+.row-right {
+    width: 65%;
+    height: 220px;
+    margin-left: 30%;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    position: static;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+    height: 120px;
+    padding: 50px;
+    background: #ffe505;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.content {
+    padding-bottom: 90px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    padding: 5px;
+    background: #1bff5a;
+    margin: 0;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.footer:hover {
+    background: #ff0703;
+}
+
+body {
+    background-image: url("img/bgJS.jpg");
+    background-size: cover;
+    font-family: Arial sans-serif;
+    font-size: 20px;
+    color: #0a0a0b;
+}
+
+button {
+    background-color: #29ad47;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 12px;
+}
+
+
+
+.loader {
+    background-image: url("img/loader.gif");
+    position: center;
+    margin-top: 170px;
+    margin-left: 13%;
+    width: 250px;
+    height: 250px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contact {
+    color: #0a0a0b;
+    margin-left: 50px;
+    padding-top: 15px;
+    text-align: center;
+}
