@@ -36,11 +36,10 @@ fetch('https://api.github.com/users/TarasMakarchuk')
         let title = document.getElementsByClassName('title')[0];
         title.appendChild(elementDiv);
         let elementLi = document.createElement('li');
-        let login = data.login;
-        elementLi.innerText = 'Hello! My name is ' + login.replace(/M/g, " M") + '.'
+        elementLi.innerText = 'Hello! My name is ' + data.login.replace(/M/g, " M") + '.'
             + ' My profile has been created ' + data.created_at.slice(0, 10).replace(/-/g, "/") + '. ' +
             'For the time being, i am studying in the courses of the Geek Hub in Javascript.' +
-            'the goal of my studies is to become a junior, and also to share my knowledge with others. ';
+            ' The goal of my studies is to become a junior developer, and also to share my knowledge with others.';
         listUl.appendChild(elementLi);
 
         let loaderElement = document.getElementsByClassName('loader')[0];
