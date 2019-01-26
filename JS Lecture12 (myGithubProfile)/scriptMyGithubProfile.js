@@ -82,6 +82,6 @@ fetch('https://api.github.com/users/TarasMakarchuk')
                     }
                     button.addEventListener('click', moreButton);
                 }
-            });
+            }).catch(error => console.error(error));
     })
     .catch(error => console.error(error));
