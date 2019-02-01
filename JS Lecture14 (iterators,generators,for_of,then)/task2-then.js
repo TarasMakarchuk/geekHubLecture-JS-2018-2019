@@ -13,8 +13,8 @@ function perform() {
     if (parameter === null) {
         parameter = arguments[1]();
     }
-    return new Promise(function (answer) {
-        answer(parameter);
+    return new Promise(function (resolve) {
+        resolve(parameter);
     });
 }
 
