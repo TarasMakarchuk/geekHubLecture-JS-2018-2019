@@ -17,10 +17,11 @@ setInterval(function () {
     function* generateRandomNumbers() {
         for (let i = start; i <= end; i++)
             yield array.push(Math.random() * bitDepth) / (end - start);
+
     }
 
     console.log('generated id: ' + array);
-    // console.log(JSON.stringify(next));
+    console.log(next);
 }, 800);
 
 //#######################################################################
