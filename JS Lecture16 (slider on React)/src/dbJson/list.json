@@ -1,0 +1,56 @@
+{
+  "img1": [
+    {
+      "src": "http://kamyshin.ru/system/images/BAhbB1sHOgZmIisyMDEyLzA3LzEzLzE0XzUxXzQ5XzkwOF/QotGD0LrQsNC9LmpwZ1sIOgZwOgp0aHVtYiINNDUweDQ1MD4/14_51_49_908_%D0%A2%D1%83%D0%BA%D0%B0%D0%BD.jpg",
+      "description": "toucan"
+    },
+    {
+      "src": "https://ianimal.ru/wp-content/uploads/2010/12/smeshnue-kaptinki-zhivotnuh-11-01.jpg",
+      "description": "owls"
+    },
+    {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu7ezTjGk1PUe8nZxJrWFIvwNisjctST860zUck1SUShK_2fwh",
+      "description": "duck"
+    },
+    {
+      "src": "https://ic.pics.livejournal.com/chemodur/69177696/4180705/4180705_900.jpg",
+      "description": "penguins"
+    },
+    {
+      "src": "http://www.agromir.net/upload/iblock/a88/a884562da2125590d25bb2bb6f67c53d.jpg",
+      "description": "rooks"
+    }
+  ],
+
+
+  "img2": [
+    {
+      "src": "https://img.gazeta.ru/files3/221/6433221/upload-02-pic700-700x467-46308.jpg",
+      "description": "Dubai"
+    },
+    {
+      "src": "https://focus.ua/files/ww7264.jpg",
+      "description": "Sicily"
+    },
+    {
+      "src": "https://most-beauty.ru/wp-content/uploads/2016/12/Rim.jpg",
+      "description": "Rome"
+    },
+    {
+      "src": "https://novate.ru/files/u34189/cities-to-visit-once-20.jpg",
+      "description": "Paris"
+    },
+    {
+      "src": "https://s.zagranitsa.com/images/articles/3294/870x486/2ca3f17ff41302c391c8c94adc1f6e07.jpg?1460102105",
+      "description": "Athens"
+    },
+    {
+      "src": "https://avatars.mds.yandex.net/get-pdb/216365/f463325f-14e4-4591-b2b6-ca11bb7c50bd/orig",
+      "description": "New-York"
+    },
+    {
+      "src": "http://vsitury.com.ua/uploads/167/60080/roma.jpg",
+      "description": "Vein"
+    }
+  ]
+}
