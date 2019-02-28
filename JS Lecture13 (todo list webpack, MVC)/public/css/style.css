@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    align-items: baseline;
+    padding: 0 10px;
+    background-color: #64a801;
+}
+
+body {
+    background-image: url("../img/bgTodo.jpg");
+    color: grey;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0.1rem;
+    opacity: 0.85;
+}
+
+h1 {
+    display: inline-block;
+    color: #323330;
+    margin-left: 40%;
+}
+
+h5 {
+    display: flex;
+    color: #323330;
+}
+
+.error{
+    margin-left: 43%;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    align-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: 0 0;
+    border: none;
+    color: grey;
+    height: 38px;
+    display: inline-block;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: silver;
+    border-radius: 10px;
+}
+
+input {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+main {
+    background: #fff;
+    max-width: 80%;
+    margin: 70px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+.todo-item {
+    display: flex;
+    font-size: 14px;
+    border-top: 1px solid #d2d2d2;
+    transition: all .2s;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 1em;
+    align-items: center;
+}
+
+.todo-item.completed {
+    color:lightgrey;
+}
+
+.todo-item .title, .todo-item .textfield {
+    margin-right: auto;
+}
+
+.todo-item .textfield {
+    display: none;
+}
+
+.todo-item.completed .title {
+    text-decoration: line-through;
+}
+
+.todo-item.editable .checkbox, todo-item.editable .title {
+    display: none;
+}
+
+.todo-item.editable .textfield {
+    display: block;
+    flex: 1;
+    margin-right: 16px;
+}
+
+.todo-item button {
+    opacity: 0;
+}
+
+.todo-item:hover button {
+    opacity: 1;
+}
+
+
+#todo-form {
+    display: flex;
+    border-top: 1px solid #7e7e7e;
+    padding: 10px;
+}
+
+#todo-form input {
+    flex: 1;
+    outline: none;
+}
+
+#todo-form input:focus {
+    border: 1px solid #64a801;
+}
+
+#todo-form button {
+    margin-left: 10px;
+}
