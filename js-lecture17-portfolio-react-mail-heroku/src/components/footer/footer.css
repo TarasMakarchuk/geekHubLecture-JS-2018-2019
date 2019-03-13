@@ -1,0 +1,41 @@
+.footer-block {
+    font-size: 1.5vh;
+    background-color: #ffe505;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.8vh;
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.footer-block:hover {
+    background-color: #ff0a07;
+    opacity: 0.8;
+}
+
+.facebook-logo {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-bottom: -0.7vh;
+    margin-left: 1vh;
+}
+
+.facebook-logo:hover {
+    opacity: 0.3;
+}
+
+.gitHub-logo {
+    width: 3.2vh;
+    height: 3.2vh;
+    margin-bottom: -1vh;
+    margin-left: 0.5vh;
+
+}
+
+.gitHub-logo:hover {
+    opacity: 0.3;
+}
+

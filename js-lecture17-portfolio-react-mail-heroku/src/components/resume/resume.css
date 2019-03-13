@@ -1,0 +1,22 @@
+.resume-block {
+    box-shadow: rgba(0, 0, 0, 0.51) 0 0 1.5vh 1.5vh;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding-top: 3vh;
+    margin-bottom: 7vh;
+}
+
+.resume-block:hover {
+    background: url(../img/bgHomepageBY.jpg) no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.82);
+}
+
+
+.resume-text li{
+    list-style:none;
+    display:flex;
+    padding: 2px;
+}

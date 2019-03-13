@@ -1,0 +1,171 @@
+.skills-block {
+    box-shadow: rgba(0, 0, 0, 0.51) 0 0 1.5vh 1.5vh;
+    margin-top: 1vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 7vh;
+    padding-bottom: 17vh;
+    padding-top: 7vh;
+}
+
+.skills-block:hover {
+    color: #fff;
+    background: url(../img/bgSkills.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.skills-block li {
+    display: inline;
+    padding: 6vh;
+}
+
+.javascript-logo img {
+    height: 12vh;
+    width: 11vh;
+}
+
+.javascript-logo img:hover {
+    height: 12.5vh;
+    width: 11.5vh;
+}
+
+.gitHub-logo img {
+    height: 9vh;
+    width: 21vh;
+}
+
+.gitHub-logo img:hover {
+    height: 9.5vh;
+    width: 21.5vh;
+}
+
+.es6-logo img {
+    height: 13vh;
+    width: 9vh;
+}
+
+.es6-logo img:hover {
+    height: 13.5vh;
+    width: 9.5vh;
+}
+
+.react-logo img {
+    height: 16vh;
+    width: 14vh;
+}
+
+.react-logo img:hover {
+    height: 16.5vh;
+    width: 14.5vh;
+}
+
+.nodeJS-logo img {
+    height: 11vh;
+    width: 14vh;
+}
+
+.nodeJS-logo img {
+    height: 11.5vh;
+    width: 14.5vh;
+}
+
+.webpack-logo img {
+    height: 13vh;
+    width: 11vh;
+}
+
+.webpack-logo img:hover {
+    height: 13.5vh;
+    width: 11.5vh;
+}
+
+.mongodb-logo img {
+    height: 11vh;
+    width: 11vh;
+}
+
+.mongodb-logo img:hover {
+    height: 11.5vh;
+    width: 11.5vh;
+}
+
+.JSON-logo img {
+    height: 15vh;
+    width: 15vh;
+}
+
+.JSON-logo img:hover {
+    height: 15.5vh;
+    width: 15.5vh;
+}
+
+.jQuery-logo img {
+    height: 11vh;
+    width: 11vh;
+}
+
+.jQuery-logo img:hover {
+    height: 11.5vh;
+    width: 11.5vh;
+}
+
+.html5-logo img {
+    height: 12vh;
+    width: 11.5vh;
+}
+
+.html5-logo img:hover {
+    height: 12.5vh;
+    width: 12vh;
+}
+
+.css3-logo img {
+    height: 14vh;
+    width: 9vh;
+}
+
+.css3-logo img:hover {
+    height: 14.5vh;
+    width: 9.5vh;
+}
+
+.DOM-logo img {
+    height: 11vh;
+    width: 11vh;
+}
+
+.DOM-logo img:hover {
+    height: 11.5vh;
+    width: 11.5vh;
+}
+
+.AJAX-logo img {
+    height: 15vh;
+    width: 15vh;
+}
+
+.AJAX-logo img:hover {
+    height: 15.5vh;
+    width: 15.5vh;
+}
+
+.mouse-logo img {
+    height: 9vh;
+    width: 14vh;
+}
+
+.mouse-logo img:hover {
+    height: 9.5vh;
+    width: 14.5vh;
+}
+
+.basketball-logo img {
+    height: 9vh;
+    width: 12vh;
+}
+
+.basketball-logo img:hover {
+    height: 9.5vh;
+    width: 12.5vh;
+}
